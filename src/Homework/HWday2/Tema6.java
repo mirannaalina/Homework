@@ -10,5 +10,24 @@ package Homework.HWday2;
 //Output
 //4.**Draw rectangle empty inside only edges
 
+import java.util.Scanner;
+
 public class Tema6 {
+
+    public static void main(String[]args){
+
+        Scanner sc = new Scanner(System.in);
+
+        String var ;
+
+        var = sc.nextLine();
+
+        while(true){
+            System.out.println(var);
+
+            if(var=="quit"){
+                break;
+            }
+        }
+    }
 }
