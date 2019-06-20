@@ -6,6 +6,7 @@ package Homework;
 //        Si afiseaza la final toate caracterele citite.
 //        Indiciu: acest switch are un singur case si un default
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Tema8 {
@@ -14,24 +15,42 @@ public class Tema8 {
 
         Scanner sc = new Scanner(System.in);
 
-       while (true) {
 
+       while (true) {
            String str = sc.nextLine();
            System.out.println("scrie ceva: ");
+
+           switch (str) {
+               case "q": {
+                   System.out.println("q");
+
+                   break;
+               }
+               default:
+                   //System.exit(0);
+                   break;
+
+           }
+           //break;
+
 
        }
 
 
-        switch (str) {
-                case "q": {
-                    System.out.println("q");
-                    break;
-                }
-                default:
-                    break;
+    }
 
-            }
-
+    int Functie(){
+        return 0;
+    }
+    void Goala(){
 
     }
+    void parametrii (int a, float b){
+        a=4;
+        b=7.0f;
+        int[]array = new int[4];
+        System.out.println(array.length + a + b);
+    }
+
+
 }
